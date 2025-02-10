@@ -1,0 +1,91 @@
+@font-face {
+    font-family: tetris;
+    src: url(Tetris.ttf);
+}
+@font-face {
+    font-family: level;
+    src: url(digital-7.ttf);
+}
+@font-face {
+    font-family: num;
+    src: url(digital-7.ttf);
+}
+
+body{
+    background-image: url(imagen/estrella.png);
+}
+#level{
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: level;
+}
+#num{
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: num;
+}
+h1{
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: tetris;
+
+}
+.gris{
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    border: grey 8px outset;
+}
+.negro{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: black 8px solid;
+}
+.amarillo{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border: yellow 8px outset;
+}
+.turquesa{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    border: aqua 8px outset;
+}
+.verde{
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+    border: greenyellow 8px outset;
+}
+.morado{
+    width: 20px;
+    height: 20px;
+    background-color: purple;
+    border: purple 8px outset;
+}
+.rojo{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: red 8px outset;
+}
+.azul{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border: blue 8px outset;
+}
+.naranja{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border: orange 8px outset;
+}
+table{
+    margin: auto;
+    padding: auto;
+    align-items: center;
+}
