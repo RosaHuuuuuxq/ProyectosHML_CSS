@@ -1,0 +1,97 @@
+@font-face {
+    font-family: TipoLetra;
+    src: url(TipoLetra/Freshman.ttf);
+}
+body{
+    background-image: url(imagen/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+table{
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    border: 15px solid brown;
+    border-collapse: collapse; 
+}
+#TipoLetra{
+    font-family: TipoLetra;
+    color: black;
+    font-size: 15px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#peonNegro{
+    background-image: url(imagen/peonNegro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#torreBlanco{
+    background-image: url(imagen/torreNegro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#caballoNegro{
+    background-image: url(imagen/caballoNegro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#rey{
+    background-image: url(imagen/rey.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#peonBlanco{
+    background-image: url(imagen/peonBlanco.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#torreNegro{
+    background-image: url(imagen/torre.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.burlywood{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: burlywood;
+}
+.bisque{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+}
+.blanco{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+.negro{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+.azul{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: cornflowerblue;
+}
+.azulclaro{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;;
+}
