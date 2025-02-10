@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="imagen/favicon.png"> 
+</head>
+<body>
+    <form name="Formulario" method="post" action="mailto:raul.rodriguez@universidadeuropea.es">
+        <fieldset>
+            <legend>LOL Spain. Que empiece el juego!!!!</legend>
+            Nombre:  <input type="text" name="Nombre" placeholder="Nombre">
+            Apellido: <input type="text" name="Apellido" placeholder="Apellido">
+            <br><br>
+            Calle: <input type="text" name="Calle" placeholder="Calle">
+            Número: <input type="text" name="Número" placeholder="Número">
+            Piso: <input type="text" name="Piso" placeholder="Piso">
+            Código postal: <input type="text" placeholder="00000" maxlength="5" required > 
+            <br><br>
+            DNI: <input type="text" name="DNI" placeholder="DNI">
+            Mail:<input type="email" name="" id="" placeholder="nombre@ejemplo.com" required>
+            <br><br>
+            Sexo: <input type="radio" name="sexo" value="H"> Hombre
+            <input type="radio" name="sexo" value="M"> Mujer
+            <br>
+            <br>
+            Fecha de nacimiento: <input type="datetime-local" name="" id="">
+            <br>
+            <br>
+            Lista:
+        <select name="Lista">
+            <option Value="1">Riot Games</option>
+            <option Value="2">Mundo LOL</option>
+            <option Value="3">Netflix</option>
+            <option Value="4">Arcane</option>
+            <option Value="5">Merchan</option>
+        </select>
+        <br>
+        <br>
+        Comentarios: <br><textarea name="" id="" cols="30" rows="5" placeholder="Comentarios"></textarea>
+        <br>
+        <br>
+        Adjuntar archivo:  <input type="file" name="archivo" id="" accept="pdf">
+
+        </fieldset>
+        <br>
+        <div align="center">
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar">
+        </div>
+    </form>
+</body>
+</html>
